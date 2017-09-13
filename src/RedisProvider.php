@@ -28,8 +28,8 @@ class RedisProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->singleton('redis', function () {
-            return new RedisClient;
+        $this->app->singleton('mredis', function () {
+            return new Mredis;
         });
     }
 }
