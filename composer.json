@@ -1,0 +1,22 @@
+{
+    "name": "roookies/redis",
+    "description": "redis tool",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linyue",
+            "email": "769353695@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roookies\\": "src/"
+        }
+    }
+}
